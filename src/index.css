@@ -1,0 +1,46 @@
+:root {
+  --sauf-teal-900: #163a44;
+  --sauf-teal-800: #204b57;
+  --sauf-teal-700: #2c6272;
+  --sauf-teal-100: #eceff0;
+  --sauf-badge-fill: #1f5e4b;
+  --sauf-badge-border: #1f5e4b;
+  --sauf-gold: #d4a82a;
+  --sauf-input-bg: #b9c7cb;
+  --sauf-border: #dde3e4;
+  --sauf-text: #1d2a2e;
+  --sauf-text-muted: #6b7a7e;
+  --sauf-bg: #ffffff;
+  --sauf-bg-muted: #f5f7f7;
+  --shadow-card: 0 2px 10px rgba(20, 40, 46, 0.08);
+
+  --sans: 'Segoe UI', system-ui, Roboto, sans-serif;
+
+  color: var(--sauf-text);
+  background: var(--sauf-bg);
+  font: 16px/1.45 var(--sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}

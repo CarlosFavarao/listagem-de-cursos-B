@@ -1,0 +1,19 @@
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 20px;
+  padding: 28px 32px 48px;
+}
+
+.course-list__empty {
+  padding: 64px 32px;
+  text-align: center;
+  color: var(--sauf-text-muted);
+  font-size: 15px;
+}
+
+@media (max-width: 640px) {
+  .course-list {
+    padding: 24px 16px 40px;
+  }
+}

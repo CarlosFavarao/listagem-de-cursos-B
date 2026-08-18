@@ -1,0 +1,29 @@
+.cursos-listagem {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  background: #fff;
+}
+
+.cursos-listagem__back {
+  position: absolute;
+  top: 68px;
+  left: 24px;
+  border: none;
+  background: transparent;
+  color: var(--sauf-text);
+  cursor: pointer;
+  padding: 6px;
+  display: inline-flex;
+}
+
+.cursos-listagem__back:hover {
+  color: var(--sauf-teal-800);
+}
+
+@media (max-width: 640px) {
+  .cursos-listagem__back {
+    top: 58px;
+    left: 12px;
+  }
+}
